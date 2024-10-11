@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologie v Herní Kultuře - Umělá Inteligence</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.6;
+        }
+
+        
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            
+        }
+
+        
+        .navbar ul li a:hover {
+            background-color: violet;
+            color: black;
+            border-radius: 5px;
+        }
+
+        
+        .showcase {
+            background-image: url('https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/control-nvidia-dlss-2-0-update/control-2560x1440-ray-tracing-nvidia-dlss-2.0-quality-mode-performance.png'); 
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .showcase h1 {
+            font-size: 50px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        .text-primary {
+            color: violet;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .content .article {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+
+     <div class="navbar">
+        <h2>Herní Technologie</h2>
+        <ul>
+            <li><a href="#dlss">Co je DLSS?</a></li>
+            <li><a href="#how-it-works">Jak DLSS funguje?</a></li>
+            <li><a href="#examples">Příklady her</a></li>
+            <li><a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/" target="_blank">Více informací</a></li>
+        </ul>
+    </div>
+
+
+    <div class="showcase">
+        <h1>Technologie, která mění hraní her</h1>
+    </div>
+
+    
+    <div class="content">
+        <div class="article" id="dlss">
+            <h1>Technologie v Herní Kultuře - Umělá Inteligence</h1>
+            <p>Umělá inteligence (AI) se stále více objevuje v moderních hrách. Zlepšuje chování NPC postav a dokonce i vizuální kvalitu her. Jedním z příkladů je DLSS (Deep Learning Super Sampling).</p>
+        </div>
+
+        <div class="article">
+            <h2 id="how-it-works">Jak DLSS funguje?</h2>
+            <p>DLSS pracuje takto:</p>
+            <ul>
+                <li>AI analyzuje obraz v nižším rozlišení.</li>
+                <li>Využívá neuronové sítě k předpovědi obrazu ve vyšším rozlišení.</li>
+                <li>Výsledný obraz je vykreslen s menší zátěží na hardware.</li>
+            </ul>
+        </div>
+
+        <div class="article" id="examples">
+            <h2>Příklady her s DLSS</h2>
+            <p>Zde jsou některé hry, které používají DLSS:</p>
+            <ol>
+                <li>Cyberpunk 2077</li>
+                <li>Death Stranding</li>
+            </ol>
+            <p>Pro více informací navštivte <a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/" target="_blank">oficiální stránky NVIDIA DLSS</a>.</p>
+        </div>
+    </div>
+
+</body>
+</html>
