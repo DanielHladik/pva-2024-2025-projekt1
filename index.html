@@ -3,140 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Technologie v Herní Kultuře - Umělá Inteligence</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            line-height: 1.6;
-        }
-
-        
-        .navbar {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar ul {
-            list-style-type: none;
-            display: flex;
-        }
-
-        .navbar ul li {
-            margin-right: 20px;
-        }
-
-        .navbar ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            
-        }
-
-        
-        .navbar ul li a:hover {
-            background-color: violet;
-            color: black;
-            border-radius: 5px;
-        }
-
-        
-        .showcase {
-            background-image: url('https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/control-nvidia-dlss-2-0-update/control-2560x1440-ray-tracing-nvidia-dlss-2.0-quality-mode-performance.png'); 
-            background-size: cover;
-            background-position: center;
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .showcase h1 {
-            font-size: 50px;
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-        }
-
-        .text-primary {
-            color: violet;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 20px;
-        }
-
-        .content .article {
-            flex: 1;
-            margin: 10px;
-            padding: 20px;
-            background-color: #f4f4f4;
-            border-radius: 8px;
-        }
-
-    </style>
 </head>
 <body>
 
-     <div class="navbar">
+    <div class="navbar">
         <h2>Herní Technologie</h2>
         <ul>
             <li><a href="#dlss">Co je DLSS?</a></li>
             <li><a href="#how-it-works">Jak DLSS funguje?</a></li>
             <li><a href="#examples">Příklady her</a></li>
+            <li><a href="#about-us">O nás</a></li>
             <li><a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/" target="_blank">Více informací</a></li>
         </ul>
     </div>
-
 
     <div class="showcase">
         <h1>Technologie, která mění hraní her</h1>
     </div>
 
-    
     <div class="content">
-        <div class="article" id="dlss">
-            <h1>Technologie v Herní Kultuře - Umělá Inteligence</h1>
-            <p>Umělá inteligence (AI) se stále více objevuje v moderních hrách. Zlepšuje chování NPC postav a dokonce i vizuální kvalitu her. Jedním z příkladů je DLSS (Deep Learning Super Sampling).</p>
+        <section class="articles-container"> 
+            <div class="article" id="dlss">
+                <h1>Technologie v Herní Kultuře - Umělá Inteligence</h1>
+                <p>Umělá inteligence (AI) se stále více objevuje v moderních hrách. Zlepšuje chování NPC postav a dokonce i vizuální kvalitu her. Jedním z příkladů je DLSS (Deep Learning Super Sampling).</p>
+                <p>DLSS umožňuje vyšší výkon tím, že využívá AI pro optimalizaci rozlišení obrazu, což poskytuje kvalitnější grafiku bez velkých nároků na hardware.</p>
+            </div>
+
+            <div class="article" id="how-it-works">
+                <h2>Jak DLSS funguje?</h2>
+                <p>DLSS pracuje takto:</p>
+                <ul>
+                    <li>AI analyzuje obraz v nižším rozlišení.</li>
+                    <li>Využívá neuronové sítě k předpovědi obrazu ve vyšším rozlišení.</li>
+                    <li>Výsledný obraz je vykreslen s menší zátěží na hardware.</li>
+                    <li>DLSS tak umožňuje hrám běžet plynuleji i na méně výkonném hardware.</li>
+                </ul>
+            </div>
+
+            <div class="article" id="examples">
+                <h2>Příklady her s DLSS</h2>
+                <p>Zde jsou některé hry, které používají DLSS:</p>
+                <ol>
+                    <li>Cyberpunk 2077</li>
+                    <li>Death Stranding</li>
+                    <li>Control</li>
+                    <li>Call of Duty: Warzone</li>
+                </ol>
+                <p>Pro více informací navštivte <a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/" target="_blank">oficiální stránky NVIDIA DLSS</a>.</p>
+            </div>
+        </section>
+
+        <div class="co-delame">
+            <h2>Co děláme</h2>
+            <p>Naše práce se zaměřuje na inovace a vzdělávání v oblasti herní technologie. Poskytujeme unikátní přednášky a školení, které pomáhají profesionálům a hráčům lépe pochopit moderní technologie.</p>
         </div>
 
-        <div class="article">
-            <h2 id="how-it-works">Jak DLSS funguje?</h2>
-            <p>DLSS pracuje takto:</p>
-            <ul>
-                <li>AI analyzuje obraz v nižším rozlišení.</li>
-                <li>Využívá neuronové sítě k předpovědi obrazu ve vyšším rozlišení.</li>
-                <li>Výsledný obraz je vykreslen s menší zátěží na hardware.</li>
-            </ul>
-        </div>
+        <section class="new-articles-container"> 
+            <div class="article" id="personalized-lectures">
+                <h2>Personalizované přednášky</h2>
+                <p>Nabízíme personalizované přednášky zaměřené na technologie jako DLSS, ray tracing a další inovace v herním průmyslu. Naše přednášky jsou přizpůsobeny potřebám jednotlivých skupin nebo organizací.</p>
+            </div>
 
-        <div class="article" id="examples">
-            <h2>Příklady her s DLSS</h2>
-            <p>Zde jsou některé hry, které používají DLSS:</p>
-            <ol>
-                <li>Cyberpunk 2077</li>
-                <li>Death Stranding</li>
-            </ol>
-            <p>Pro více informací navštivte <a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/" target="_blank">oficiální stránky NVIDIA DLSS</a>.</p>
-        </div>
+            <div class="article" id="workshops">
+                <h2>Praktické workshopy</h2>
+                <p>Pořádáme praktické workshopy, které umožňují účastníkům experimentovat s novými technologiemi a naučit se, jak je implementovat do svých projektů.</p>
+            </div>
+
+            <div class="article" id="consultation">
+                <h2>Konzultace a poradenství</h2>
+                <p>Nabízíme konzultace pro vývojáře a firmy, které chtějí zavést nové technologie do svých her nebo projektů. Pomůžeme vám najít nejlepší řešení pro vaše potřeby.</p>
+            </div>
+        </section>
+
+        <section class="about-us" id="about-us"> 
+            <h2>O nás</h2>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni impedit, distinctio repellat in eligendi neque! Facilis repellendus illo incidunt laudantium doloribus! Dolorum excepturi beatae, neque debitis amet fuga aliquid.</p>
+        </section>
     </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2024 Herní Technologie</p>
+    </footer>
 
 </body>
 </html>
