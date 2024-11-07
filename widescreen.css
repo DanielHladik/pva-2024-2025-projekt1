@@ -1,0 +1,78 @@
+/* widescreen.css */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .showcase {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .showcase h1 {
+        font-size: 50px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+    }
+
+    .articles-container,
+    .new-articles-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .article {
+        padding: 20px;
+        flex: 1;
+        transition: transform 0.3s;
+    }
+
+    .article:hover {
+        transform: scale(1.05);
+    }
+
+    .co-delame,
+    .about-us {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+        padding: 20px;
+        border-radius: 8px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    }
+
+    .co-delame h2,
+    .about-us h2 {
+        color: #9acd32;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .co-delame p,
+    .about-us p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,102 @@
+/* mobile.css */
+@media (max-width: 767px) {
+    .navbar {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 10px 0;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .showcase {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    .showcase h1 {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .articles-container,
+    .new-articles-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .article {
+        padding: 15px;
+    }
+
+    .co-delame,
+    .about-us {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 0 10px 20px;
+        box-sizing: border-box;
+    }
+
+    .co-delame h2,
+    .about-us h2 {
+        color: #9acd32;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .co-delame p,
+    .about-us p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    
+    .article ol {
+        padding-left: 20px; 
+        margin-left: 0;
+        list-style-position: inside; 
+    }
+
+    footer {
+        padding: 10px;
+        background-color: #1e1e1e;
+        color: #9acd32;
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
