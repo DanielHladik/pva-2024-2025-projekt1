@@ -1,7 +1,7 @@
 /* mobile.css */
 @media (max-width: 767px) {
     .navbar {
-        padding: 15px;
+        padding: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 0.625rem;
         padding: 0;
         margin: 0;
         list-style: none;
@@ -26,14 +26,14 @@
 
     .navbar ul li a {
         display: block;
-        padding: 10px 0;
+        padding: 0.625rem 0;
         color: white;
         text-decoration: none;
         width: 100%;
     }
 
     .showcase {
-        height: 300px;
+        height: 18.75rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,28 +42,28 @@
     }
 
     .showcase h1 {
-        font-size: 32px;
-        padding: 10px;
+        font-size: 2rem;
+        padding: 0.625rem;
     }
 
     .articles-container,
     .new-articles-container {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 0.9375rem;
     }
 
     .article {
-        padding: 15px;
+        padding: 0.9375rem;
     }
 
     .co-delame,
     .about-us {
         background-color: #2a2a2a;
         color: #e0e0e0;
-        padding: 20px;
-        border-radius: 8px;
-        margin: 0 10px 20px;
+        padding: 1.25rem;
+        border-radius: 0.5rem;
+        margin: 0 0.625rem 1.25rem;
         box-sizing: border-box;
     }
 
@@ -71,7 +71,7 @@
     .about-us h2 {
         color: #9acd32;
         font-size: 1.5rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3125rem;
     }
 
     .co-delame p,
@@ -80,15 +80,14 @@
         line-height: 1.5;
     }
 
-    
     .article ol {
-        padding-left: 20px; 
+        padding-left: 1.25rem; 
         margin-left: 0;
         list-style-position: inside; 
     }
 
     footer {
-        padding: 10px;
+        padding: 0.625rem;
         background-color: #1e1e1e;
         color: #9acd32;
         text-align: center;
@@ -97,6 +96,7 @@
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 0.9375rem;
     }
 }
+

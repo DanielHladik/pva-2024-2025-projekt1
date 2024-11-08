@@ -1,7 +1,9 @@
 /* widescreen.css */
 @media (min-width: 768px) {
+   
+   
     .navbar {
-        padding: 20px;
+        padding: 1.25rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -9,11 +11,11 @@
 
     .navbar ul {
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .showcase {
-        height: 500px;
+        height: 31.25rem;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -23,22 +25,22 @@
     }
 
     .showcase h1 {
-        font-size: 50px;
+        font-size: 3.125rem;
         background: rgba(0, 0, 0, 0.6);
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .articles-container,
     .new-articles-container {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 1.25rem;
         margin-bottom: 2rem;
         margin-top: 2rem;
     }
 
     .article {
-        padding: 20px;
+        padding: 1.25rem;
         flex: 1;
         transition: transform 0.3s;
     }
@@ -53,16 +55,16 @@
         margin: 0 auto;
         background-color: #2a2a2a;
         color: #e0e0e0;
-        padding: 20px;
-        border-radius: 8px; 
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+        padding: 1.25rem;
+        border-radius: 0.5rem; 
+        box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.3); 
     }
 
     .co-delame h2,
     .about-us h2 {
         color: #9acd32;
         font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.625rem;
     }
 
     .co-delame p,
@@ -72,7 +74,9 @@
     }
 
     footer {
-        padding: 20px;
+        padding: 1.25rem;
         text-align: center;
+ 
     }
 }
+
